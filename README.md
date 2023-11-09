@@ -36,4 +36,4 @@
 
 - [OrderServiceTest](jpashop/src/test/java/jpabook/jpashop/service/OrderServiceTest.java)
 
-- [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Member.java)
+- [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Order.java)
