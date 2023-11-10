@@ -28,12 +28,17 @@
 ## **📌** 코드
 
 #### Order
+
+- [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Order.java)
+  
 - [OrderController](jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java)
 
 - [OrderService](jpashop/src/main/java/jpabook/jpashop/service/OrderService.java)
 
-- [OrderRepository](jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java)
-
 - [OrderServiceTest](jpashop/src/test/java/jpabook/jpashop/service/OrderServiceTest.java)
 
-- [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Order.java)
+- [OrderRepository](jpashop/src/main/java/jpabook/jpashop/repository/OrderRepository.java)
+
+
+
+
