@@ -16,6 +16,18 @@ public class OrderRepository {
 
     private final EntityManager em;
 
+    // sql 조인하여 select 절에 다 넣고 한번에 불러오는 것
+    // lazy 처리 되어있는 것들도 프록시 말고 진짜 객체로 다 가져옴
+    // fetch join은 jpa에만 있는 개념
+    public List<Order> findAllWithMemberDelivery() {
+        return em.createQuery(
+                "select o from Order o" +
+                        " join fetch o.member m" +
+                        " join fetch o.delivery d", Order.class)
+                .getResultList();
+
+    }
+
     public OrderRepository(EntityManager em) {
         this.em = em;
     }
@@ -95,6 +107,7 @@ public class OrderRepository {
         TypedQuery<Order> query = em.createQuery(cq).setMaxResults(1000);
         return query.getResultList();
     }
+
 
 }
 
