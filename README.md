@@ -3,12 +3,6 @@
 
 - 상품을 등록,주문,취소,수정할 수 있는 어플입니다 
   
-<br> 
-
-### 🕐개발기간
-
-- 23.08.20 - 23.09.20
-   
 <br>  
 
 ### 개발환경
@@ -30,6 +24,8 @@
 #### Order
 
 - [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Order.java)
+
+- [OrderApiController](jpashop/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java)
   
 - [OrderController](jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java)
 
