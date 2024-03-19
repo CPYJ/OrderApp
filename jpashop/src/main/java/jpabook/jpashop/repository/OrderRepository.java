@@ -25,7 +25,17 @@ public class OrderRepository {
                         " join fetch o.member m" +
                         " join fetch o.delivery d", Order.class)
                 .getResultList();
+    }
 
+    public List<Order> findAllWithItem() {
+        // distinct = 겹치는 row를 줄여주고 겹치는 entity가 있으면 하나만 출력
+        return em.createQuery(
+                        "select distinct o from Order o" +
+                                " join fetch o.member m" +
+                                " join fetch o.delivery d" +
+                                " join fetch o.orderItems oi" +
+                                " join fetch oi.item i", Order.class)
+                .getResultList();
     }
 
     public OrderRepository(EntityManager em) {
@@ -107,6 +117,7 @@ public class OrderRepository {
         TypedQuery<Order> query = em.createQuery(cq).setMaxResults(1000);
         return query.getResultList();
     }
+
 
 
 }
