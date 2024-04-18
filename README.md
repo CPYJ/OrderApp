@@ -3,8 +3,15 @@
 
 - 도서를 주문할 수 있는 웹 서비스 입니다.
   <br>회원 CRUD, 상품 CRUD, 주문 CRD 기능이 포함되어 있습니다.
-  
-<br>  
+
+<br>
+
+## ERD
+
+  <img width="400" src="https://github.com/CPYJ/OrderApp/assets/89621204/bcbcc9b7-1a19-4d78-bd16-3694d5bfb861">
+
+ 
+<br> <br> 
 
 ### 개발환경
 
