@@ -7,7 +7,7 @@
 
 ### 개발환경
 
-- Java 11
+- **Language** : Java 11
 
 - **IDE** : Intelli J
 
