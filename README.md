@@ -2,7 +2,6 @@
 ## **🖥️**프로젝트 소개
 
 - 도서를 주문할 수 있는 웹 서비스 입니다.
-  <br>회원 CRUD, 상품 CRUD, 주문 CRD 기능이 포함되어 있습니다.
 
 <br>
 
@@ -32,8 +31,6 @@
 #### 주문 파트
 
 - [OrderEntity](jpashop/src/main/java/jpabook/jpashop/domain/Order.java)
-
-- [OrderApiController](jpashop/src/main/java/jpabook/jpashop/api/OrderSimpleApiController.java)
   
 - [OrderController](jpashop/src/main/java/jpabook/jpashop/controller/OrderController.java)
 
