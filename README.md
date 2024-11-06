@@ -5,13 +5,6 @@
 
 <br>
 
-## ERD
-
-  <img width="400" src="https://github.com/CPYJ/OrderApp/assets/89621204/bcbcc9b7-1a19-4d78-bd16-3694d5bfb861">
-
- 
-<br> <br> 
-
 ### 개발환경
 
 - Java 11
